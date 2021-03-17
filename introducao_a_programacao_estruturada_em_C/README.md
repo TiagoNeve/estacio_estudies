@@ -73,3 +73,48 @@ switch(VARIAVEL) {
 ### CONCLUSÃO
 
 1. CONSIDERAÇÕES FINAIS: Apresentou os conceitos de estrutura de decisão usando a linguagem C, que permite que as aplicações desenvolvidos sejam eficientes. Utilizando de *if* e *else* e seus aninhamentos e encadeamentos, além da estrutura *switch-case*.
+
+===
+## TEMA 5: ESTRUTURAS DE REPETIÇÃO
+
+### Módulo 1 - Comando FOR:
+    Utilizado para executar um comando muitas vezes, sempre que um sistema precise executar muitos comandos iguais, deve-se utilizar as estruturas de repetição
+
+```C
+for (inicializacao; condicao; incremento_decremento)
+{
+    Bloco_de_comando;
+}
+```
+1. A variável de controle recebe o valor inicial, definido na inicialização
+2. O valor da variável de controle é comparado com a condição
+3. se a condição for verdadeira, executa o bloco e incrementa ou decrementa a variável de controle.
+
+**1º problema**
+```C
+int num;
+printf("Digite um número: \n");
+scanf("%d", &num);
+
+for(int i=0; i<20; i++){
+    printf("%d", num);
+}
+```
+**2º problema**
+```C
+int num, maior=0, i=0;
+
+for (i; i<15; i++) {
+    scanf("%d", &num);
+
+    if(num>maior){
+        maior = num;
+    }
+}
+printf("%d", maior);
+```
+### Módulo 2 - Comando WHILE:
+    Executa um bloco de código ENQUANTO uma condição for verdadeira.
+
+### Módulo 3 - Comando DO-WHILE:
+    Executa pelo menos uma vez e depois faz a verificação de continuidade.
