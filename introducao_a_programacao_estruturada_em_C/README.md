@@ -118,3 +118,10 @@ printf("%d", maior);
 
 ### Módulo 3 - Comando DO-WHILE:
     Executa pelo menos uma vez e depois faz a verificação de continuidade.
+
+## TEMA 6 - VETORES E MATRIZES
+
+int vogais[100]; => [] -> Quantidade de índices que terá o vetor
+
+    matriz:
+    int matriz[3][3] -> [linha][coluna]
